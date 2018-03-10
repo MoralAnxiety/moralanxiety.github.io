@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$(document).on("click",function(e){var o=$(e.target),s=o.closest(".feature-row");s.length?s.hasClass("open")?s.removeClass("open"):($(".feature-row").removeClass("open"),s.addClass("open")):$(".feature-row").removeClass("open")})});
