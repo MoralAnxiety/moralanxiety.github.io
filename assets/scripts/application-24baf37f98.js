@@ -1,1 +1,0 @@
-"use strict";$(document).ready(function(){$(document).on("click",function(e){var o=$(e.target),s=o;console.log(s),s.length?o.hasClass("feature-row")?s.hasClass("open")?s.removeClass("open"):($(".feature-row").removeClass("open"),s.addClass("open")):s.hasClass("open")||$(".feature-row").removeClass("open"):$(".feature-row").removeClass("open")})});
